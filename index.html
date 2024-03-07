@@ -12,32 +12,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet" />
 
-    <link rel="stylesheet" href="./css/menu.css" />
-    <title>modal</title>
+    <link rel="stylesheet" href="./css/styles-mob.css" />
+    <link rel="stylesheet" href="./css/styles-tab.css" />
+    <link rel="stylesheet" href="./css/styles-dt.css" />
+
+    <title>Green Harvest</title>
 </head>
 
 <body>
     <header class="header-section">
         <div class="header-container">
-            <a class="header-logo" href="#">
-                <svg class="header-logo-icon">
-                    <use href="./img/icons.svg#icon-logo"></use>
-                </svg>
-            </a>
+
             <nav class="header-nav">
+
+                <a class="header-logo-link" href="#">
+                    <svg class="header-logo">
+                        <use class="header-logo-icon" href="./img/icons.svg#icon-logo"></use>
+                    </svg>
+                </a>
+
                 <ul class="header-nav-list">
                     <li class="header-nav-item"><a class="header-nav-link" href="">How It Works</a></li>
                     <li class="header-nav-item"><a class="header-nav-link" href="">Vegetables</a></li>
                     <li class="header-nav-item"><a class="header-nav-link" href="">Reviews</a></li>
                 </ul>
+
             </nav>
+
+            <button class="header-buy-btn" type="button">Shop now</button>
+
             <button class="header-menu-btn" type="button">
-                <svg class="header-menu-icon">
-                    <use href="./img/icons.svg#icon-menu"></use>
+                <svg class="header-menu">
+                    <use class="header-menu-icon" href="./img/icons.svg#icon-menu"></use>
                 </svg>
             </button>
+
         </div>
     </header>
+
     <div class="menu-backdrop">
         <div class="menu-container menu-section">
             <div>
@@ -64,7 +76,9 @@
             </button>
         </div>
     </div>
+    <section class="hero-section">
 
+    </section>
     <script type="module" src="./js/menu.js" defer></script>
 
 </body>
