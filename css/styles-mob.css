@@ -61,6 +61,11 @@ body {
 /** header-srction-start */
 
 @media screen and (min-width: 375px) {
+  body {
+    background-image: url(/img/body-bg.jpg);
+    background-repeat: repeat;
+  }
+
   .header-container {
     width: 375px;
     margin: 0 auto;
