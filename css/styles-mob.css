@@ -110,7 +110,7 @@ img {
   /** header-section-end */
   /** hero-section-start */
 
-  .hero-section {
+  .hero-container {
     margin: 0 auto;
     width: 375px;
     height: 712px;
