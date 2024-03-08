@@ -80,6 +80,10 @@ img {
     stroke: #ffffff;
   }
 
+  .header-logo-link {
+    tab-size: 0;
+  }
+
   .header-menu-btn {
     display: flex;
     justify-content: center;
