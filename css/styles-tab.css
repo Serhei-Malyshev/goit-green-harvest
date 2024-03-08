@@ -1,6 +1,46 @@
 @media screen and (min-width: 768px) {
-  /** menu-start */
+  /** header-section-start */
 
+  .header-container {
+    width: 768px;
+    padding: 32px 32px 50px 32px;
+  }
+
+  .header-logo {
+    width: 194px;
+    height: 18px;
+  }
+
+  .header-menu-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .header-menu {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/** hero-section-start */
+/** hero-section-end */
+
+@media screen and (min-width: 768px) {
+  .hero-section {
+    width: 768px;
+
+    margin: 0 auto;
+
+    background-image: url(../img/hero-bg-mob.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+  }
+}
+
+/** menu-start */
+
+@media screen and (min-width: 768px) {
   .menu-backdrop {
     background: rgba(20, 20, 20, 0.4);
   }
@@ -56,29 +96,5 @@
     width: 157px;
     height: 52px;
   }
-
-  /** menu-end */
-  /** header-section-start */
-
-  .header-container {
-    width: 768px;
-    padding: 32px 32px 50px 32px;
-  }
-
-  .header-logo {
-    width: 194px;
-    height: 18px;
-  }
-
-  .header-menu-btn {
-    width: 40px;
-    height: 40px;
-  }
-
-  .header-menu {
-    width: 40px;
-    height: 40px;
-  }
 }
-
-/** hero-section-start */
+/** menu-end */
