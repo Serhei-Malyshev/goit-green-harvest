@@ -106,15 +106,15 @@ img {
   .header-buy-btn {
     display: none;
   }
-}
 
-/** header-section-end */
-/** hero-section-start */
+  /** header-section-end */
+  /** hero-section-start */
 
-@media screen and (min-width: 375px) {
   .hero-section {
-    width: 375px;
     margin: 0 auto;
+    width: 375px;
+    height: 712px;
+    padding: 0 20px;
 
     background-color: #576f35;
     background-image: url(../img/hero-bg-mob.jpg);
@@ -123,39 +123,32 @@ img {
     background-size: auto;
   }
 
-  .hero-container {
-    height: 712px;
-    padding: 0 20px;
+  .hero-title {
+    margin-bottom: 20px;
+
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+
+    color: #fbfbfb;
   }
-}
 
-.hero-title {
-  margin-bottom: 20px;
+  .hero-txt {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    font-style: normal;
+    color: #fbfbfb;
+  }
 
-  font-family: "Inter Tight", sans-serif;
-  font-weight: 600;
-  font-size: 48px;
-  font-style: normal;
-  line-height: 1;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
+  /** hero-section-end */
+  /** menu-start */
 
-  color: #fbfbfb;
-}
-
-.hero-txt {
-  font-family: "Inter Tight", sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.29;
-  font-style: normal;
-  color: #fbfbfb;
-}
-
-/** hero-section-end */
-/** menu-start */
-
-@media screen and (min-width: 375px) {
   .menu-backdrop {
     display: none;
 
@@ -304,5 +297,6 @@ img {
   .menu-bottom-btn:active {
     color: rgba(122, 49, 69, 0.7);
   }
+
+  /** menu-end */
 }
-/** menu-end */
