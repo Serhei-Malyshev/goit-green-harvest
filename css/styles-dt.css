@@ -88,20 +88,20 @@
 
     cursor: pointer;
   }
+
+  .header-buy-btn:hover,
+  .header-buy-btn:focus {
+    color: #fbfbfb;
+
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    background: #622133;
+  }
+
+  .header-buy-btn:active {
+    color: #7a3145;
+    background: #fbfbfb;
+  }
+
+  /** hero-section-start */
+  /** hero-section-end */
 }
-
-.header-buy-btn:hover,
-.header-buy-btn:focus {
-  color: #fbfbfb;
-
-  border: 1px solid rgba(251, 251, 251, 0.2);
-  background: #622133;
-}
-
-.header-buy-btn:active {
-  color: #7a3145;
-  background: #fbfbfb;
-}
-
-/** hero-section-start */
-/** hero-section-end */

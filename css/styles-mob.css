@@ -135,10 +135,10 @@ img {
   font-family: "Inter Tight", sans-serif;
   font-weight: 600;
   font-size: 48px;
+  font-style: normal;
   line-height: 1;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  margin-bottom: 20px;
 
   color: #fbfbfb;
 }
@@ -148,10 +148,11 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
-
+  font-style: normal;
   color: #fbfbfb;
 }
 
+/** hero-section-end */
 /** menu-start */
 
 @media screen and (min-width: 375px) {
