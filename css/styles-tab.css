@@ -56,7 +56,6 @@
   .menu-container {
     max-width: 351px;
 
-    /* position: absolute; */
     right: 0;
     transform: translate(32px) scale(1);
 
