@@ -26,8 +26,9 @@
 
   .hero-container {
     width: 768px;
-    height: 902px;
-    padding: 0 32px;
+    height: 1024px;
+
+    padding: 122px 32px 0 32px;
 
     background-image: url(../img/hero-bg-tab.jpg);
     background-repeat: no-repeat;

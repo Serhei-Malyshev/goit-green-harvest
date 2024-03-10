@@ -1,0 +1,174 @@
+/** global-reset-start */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* p:last-child {
+  margin-bottom: 0;
+} */
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+/** global-reset-end */
+/** global-style-start */
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/** global-style-end */
+
+.header-section {
+  position: relative;
+}
+
+.header-container {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%) scale(1);
+
+  margin: 0 auto;
+  padding: 20px 20px 48px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #576f35;
+}
+
+.header-nav-list {
+  display: none;
+}
+
+.header-logo {
+  width: 168px;
+  height: 16px;
+
+  fill: #ffffff;
+  stroke: #ffffff;
+}
+
+.header-buy-btn {
+  display: none;
+}
+
+.header-menu-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 32px;
+  height: 32px;
+
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.header-menu {
+  display: block;
+
+  width: 32px;
+  height: 32px;
+
+  fill: #ffffff;
+  stroke: #ffffff;
+}
+
+/** hero-section */
+
+.hero-container {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 812px;
+  padding: 100px 20px 0 20px;
+
+  background-color: #576f35;
+  background-image: url(../img/hero-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: auto;
+}
+
+.hero-title {
+  margin-bottom: 20px;
+
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+
+  color: #fbfbfb;
+}
+
+.hero-txt {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  font-style: normal;
+  color: #fbfbfb;
+}
+
+/** menu */
+
+.menu-backdrop {
+  display: none;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  cursor: pointer;
+  background: #7a3145;
+}
