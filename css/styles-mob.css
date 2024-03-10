@@ -2,17 +2,8 @@
   /** header-section-start */
 
   .header-container {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%) scale(1);
-
     width: 375px;
     padding: 20px 20px 48px 20px;
-  }
-
-  .header-logo-link {
-    tab-size: 0;
   }
 
   .header-menu-btn {
