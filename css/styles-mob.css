@@ -42,7 +42,7 @@
     background-image: url(../img/hero-bg-mob.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: auto;
+    background-size: 375px 370px;
   }
 
   .hero-title {

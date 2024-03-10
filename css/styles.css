@@ -136,7 +136,7 @@ img {
   background-image: url(../img/hero-bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: auto;
+  background-size: contain;
 }
 
 .hero-title {
