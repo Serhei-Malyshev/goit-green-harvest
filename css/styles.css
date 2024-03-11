@@ -217,6 +217,7 @@ img {
   justify-content: space-between;
 
   overflow-y: auto;
+  overflow-x: hidden;
   cursor: default;
   background-color: #7a3145;
 }
