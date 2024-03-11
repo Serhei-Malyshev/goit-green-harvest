@@ -222,6 +222,14 @@ img {
   background-color: #7a3145;
 }
 
+.menu-container::-webkit-scrollbar {
+  display: none;
+}
+
+.menu-container::-webkit-scrollbar-thumb {
+  display: none;
+}
+
 .menu-close-btn {
   position: absolute;
   top: 20px;
