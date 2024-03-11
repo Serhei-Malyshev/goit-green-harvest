@@ -216,6 +216,7 @@ img {
   flex-direction: column;
   justify-content: space-between;
 
+  overflow-y: auto;
   cursor: default;
   background-color: #7a3145;
 }
