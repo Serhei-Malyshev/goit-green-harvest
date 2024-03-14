@@ -76,10 +76,6 @@ img {
   background-color: #576f35;
 }
 
-.header-logo-link {
-  tab-size: 0;
-}
-
 .header-menu-btn {
   display: flex;
   justify-content: center;
