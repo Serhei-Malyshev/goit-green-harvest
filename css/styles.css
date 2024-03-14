@@ -224,9 +224,21 @@ img {
   }
 }
 
-@media screen and (max-height: 498px) {
+@media screen and (max-height: 474px) {
+  .menu-container {
+    padding: 140px 20px 40px 20px;
+  }
+}
+
+@media screen and (max-height: 420px) {
   .menu-container {
     padding: 96px 20px 40px 20px;
+  }
+}
+
+@media screen and (max-height: 344px) {
+  .menu-container {
+    padding: 60px 20px 40px 20px;
   }
 }
 
@@ -265,6 +277,8 @@ img {
   flex-direction: column;
   gap: 10px;
   align-items: center;
+
+  margin-bottom: 20px;
 }
 
 .menu-nav-item {
@@ -348,4 +362,5 @@ img {
 .menu-bottom-btn:active {
   color: rgba(122, 49, 69, 0.7);
 }
+
 /** menu-end */
